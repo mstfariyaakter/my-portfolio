@@ -1,0 +1,263 @@
+body {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sevillana', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+section {
+    padding: 5%;
+    display: flex;
+    /* padding: 0px;
+    margin: 0px; */
+
+
+}
+header{
+    position: sticky;
+    align-items: center;
+    background-color: rgb(232, 89, 211);
+    color: black;
+}
+
+
+
+button{
+    text-decoration:none;
+    border-color:3px solid rgb(0, 0, 0); 
+    background-color: rgb(222, 99, 136);
+    color: aliceblue;
+    height: auto;
+    width: auto;
+    border-radius: 12%;
+} 
+button:hover {
+    background-color: rgb(253, 249, 255);
+    color: rgb(244, 82, 84);
+}
+li {
+    display: inline-block;
+    padding: 1px;
+    margin: 3px;
+    /* border-radius: 10px; */
+}
+
+nav {
+    /* background-color: rgb(253, 247, 247); */
+    color: rgb(0, 0, 0);
+}
+
+li:hover {
+    /* background-color: white; */
+    color: rgb(216, 216, 237);
+}
+.portfolio {
+    /* color: blue;  */
+    display: flex;
+}
+
+* {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+}
+
+.just {
+    background-image: url(imges/222.jpg);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 40%;
+    width: 95%;
+    margin: 8%;
+}
+
+.img {
+    width: 65%;
+    margin: 8%;
+    border-radius: 80%;
+}
+
+.box {
+    width: 50%;
+}
+
+/* .link {
+    text-decoration: none;
+     background-color: brown; 
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(225, 152, 164), rgb(159, 7, 7));
+    color: rgb(44, 0, 95);
+    font-weight: 700;
+} */
+
+
+body {
+    background-color: white;
+    height: 34vh;
+}
+
+@media screen and (max-width: 880px) {
+    body {
+        background-color: rgb(254, 254, 254);
+    }
+}
+
+@media screen and (max-width:442px) {
+    body {
+        background-color: rgb(251, 251, 251);
+    }
+}  
+
+.span {
+    color: rgb(8, 45, 255);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.skill {
+    text-align: center;
+}
+
+.qwzx {
+    text-align: center;
+    background-color: rebeccapurple;
+    display: grid;
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+    grid-template-columns: auto auto auto auto;
+    /* grid-row: 1/span 4 ; */
+}
+
+
+.zz {
+    background-color: rgb(238, 221, 221);
+    color: rgb(11, 83, 146);
+    border: 3px solid red;
+}
+
+
+
+.degine {
+    text-align: center;
+    padding: 5%;
+}
+
+/* .father{
+    display: flex;
+} */
+/* .father{
+    display:flex ;
+} */
+.pc{
+    width: 8vw;
+    /* text-align: center; */
+}
+.one {text-align: center;
+    margin: 2%;
+    padding: 30PX;
+/*     
+     justify-content: center;  */
+    /* display: flex; */
+
+} 
+
+.tow {
+    height: 290px;
+    width: 200px;
+    background-color: rgb(92, 177, 233);
+    box-shadow:  10px 10px 10px  rgb(83, 80, 80); 
+    border-radius: 0 20px 60px 0; 
+      /* margin-top: 50px;    */
+      /* margin: 2%;
+      padding: 50PX; */
+      border-left: 9px solid ;
+border-image: linear-gradient(rgb(237, 105, 105), rgb(77, 42, 216)) 27;;
+
+}
+.tow:hover {
+    background-color: rgb(238, 119, 133);
+    color: aliceblue;
+}
+/* .all-box{
+    display: flex;
+} */
+/* .rd{
+    display: flex;
+} */
+ /* .a-box{
+    display: flex;
+}
+.b-box{
+    display: flex;} */
+
+ /* .rd{display: flex;
+     text-align: center; 
+    padding: 5%;
+    display: flex;
+    box-sizing: border-box;  
+}
+.rdd{
+  
+    padding: 5%;
+    display: flex;
+}  */
+/* .rd{
+     display: flex;
+
+
+}  */
+.a-box{
+display: flex;
+
+}
+.b-box{
+ 
+ display:flex;
+}
+
+/* footer{
+    text-align: center;
+} */
+.md { 
+    border: 9px solid ;
+    border-image: linear-gradient(rgb(237, 105, 105), rgb(77, 42, 216)) 27;;
+    box-shadow: 10px 5px 5px 10px slategrey;
+    text-align: center;
+    background-color: rgb(248, 101, 140);
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+}
+.chat {
+    text-align: center;
+    color: blue;
+}
+
+.hi {
+    text-align: center;
+}
+.chat{ text-align: center;}
